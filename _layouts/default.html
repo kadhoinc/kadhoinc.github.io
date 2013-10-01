@@ -15,19 +15,15 @@
     </head>
     <body>
 
+	{% include header.html %}
+
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/about.html">about</a> 
-            <a class="extra" href="/blog.html">blog</a> 
-            <a class="extra" href="/contact.html">contact</a> 
-          </div>
 
           {{ content }}
 
-	 {% include footer.html %} 
-
         </div>
+
+	{% include footer.html %}
 
     </body>
 </html>
