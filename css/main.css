@@ -263,9 +263,14 @@ ul.posts span {
 
 .links {
   float: right;
-  margin-right: 440px;
+  margin-right: 340px;
   margin-top: 5px;
   line-height: -5px;
+}
+
+.links a {
+  float: none;
+  margin-left: 20px;
 }
 
 #nav-links {
@@ -278,7 +283,7 @@ ul.posts span {
   padding: 8px 15px 8px;
   text-decoration: none !important;
   text-shadow: 0 1px 0 #fff;
-  width: 50em;
+  width: 45em;
   padding: 10px;
   margin-left:auto;
   margin-right:auto;
@@ -291,4 +296,19 @@ ul.posts span {
 .science li {
  margin: 1.4em 0;
  text-align: left !important;
+}
+
+#band1 {
+}
+
+#band1 .left {
+  width: 50%;
+  padding: 15px;
+  float: left;
+}
+
+#band .right {
+  width: 50%;
+  padding: 15px;
+  float: right;
 }
