@@ -55,6 +55,11 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.main {
+  padding-bottom: 60px;
+  overflow: auto;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
@@ -153,17 +158,17 @@ ul.posts span {
 }
 
 .footer {
-  height: 60px;
-  position: absolute;
+  height: 100px;
+  /*margin-top: -60px;*/
+  position: relative;
   width: 100%;
-  Background:rgba(235,255,255,1.0);
+  Background:rgba(255,255,255,1.0);
   left: 0px;
   bottom: 0px;
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
-  overflow: hidden;
   clear:both;
 }
 
@@ -247,8 +252,8 @@ ul.posts span {
   width: 42em;
 }
 
-#logo {
-
+.logo {
+ float: left;
 }
 
 .header a {
@@ -256,23 +261,34 @@ ul.posts span {
   text-decoration: none;
 }
 
+.links {
+  float: right;
+  margin-right: 440px;
+  margin-top: 5px;
+  line-height: -5px;
+}
+
 #nav-links {
   font-family: "Museo Sans", "Lucida Grande", Arial, sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #aaa;
+  color: #aaa !important;
   margin-left: 1em;
   float: none;
   padding: 8px 15px 8px;
-  text-decoration: none;
+  text-decoration: none !important;
   text-shadow: 0 1px 0 #fff;
+  width: 50em;
+  padding: 10px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .header #nav-links a:hover {
   color: #000;
 }
 
-.header #nav-links a:active {
-  color: #aaa;
+.science li {
+ margin: 1.4em 0;
+ text-align: left !important;
 }
-
