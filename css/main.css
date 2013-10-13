@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -63,7 +63,7 @@ ul.posts span {
   min-height: 100%;
   font-size: 115%;
   text-align: justify;
-  width: 63em;
+  width: 80%;
   margin: 3em auto 2em;
   line-height: 1.5em;
   padding-top: 50px; 
@@ -148,7 +148,7 @@ ul.posts span {
   height: 150px;
   margin-top: 150px;
   /*margin-top: -100px;*/
-  Background:rgba(255,255,255,1.0);
+  Background:rgba(246,247,248,1.0);
   left: 0px;
   bottom: 0px;
   font-size: 100%;
@@ -301,7 +301,282 @@ ul.posts span {
 }
 
 #band1 .right img {
-  height: 220px;
-  width: 360px;
+  max-height: 100%;
+  max-width: 100%;
   margin-left: 20px;
+}
+
+#band2 {
+  margin-top: 2%;
+  overflow: auto;
+  width: 100%;
+  color: #fff;
+}
+
+#band2 .column1 {
+  width: 33%;
+  float: left;
+}
+
+.segment1 {
+  padding: 1em;
+}
+
+.segment1 img { 
+  max-width: 100%;
+  max-height: 100%;
+} 
+
+#band2 .column23 {
+  width: 66%;
+  float: right;
+}
+
+#band2 .column2 {
+  width: 50%;
+  float: left;
+}
+
+.segment2 {
+  padding: 1em;
+}
+
+.segment2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#band2 .column3 {
+  width: 50%;
+  float: right;
+}
+
+.segment3 {
+  padding: 1em;
+}
+
+.segment3 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#band3 {
+  margin-top: 2%;
+  width: 100%;
+  overflow: auto;
+}
+
+#band3 .heading {
+ width:100%;
+ text-align: center;
+ font-size: 16pt;
+}
+
+#band3 .left {
+  width: 50%;
+  padding: 15px;
+  float: left;
+  font-size: 13pt;
+}
+
+#band3 .right {
+  width: 40%;
+  padding: 15px;
+  float: right;
+}
+
+#band3 .right img {
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+.center-cropped {
+    width: 100px;
+    height: 429px;
+    /*background-position: center center; */
+    background-repeat: repeat;
+    overflow: hidden;
+    z-index: -2;
+    left: 0px;
+}
+
+.center-cropped img {
+   min-height: 100%;
+   min-width: 100%;
+   opacity: 0.7;
+
+   /* IE 8 */
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+   /* IE 5-7 */
+   filter: alpha(opacity=20);
+   /* modern browsers */
+}
+
+#band5 {
+  width: 100%;
+  height: 150px;
+  margin-top: 2%;
+  font-size: 16pt;
+  text-align: center;
+  color: #fff;
+  overflow: auto;
+}
+
+#band5 h1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#band5 .center-cropped {
+  width: 100px;
+  height: 150px;
+  background-color:rgba(201, 160, 220, 0.8);
+  background-repeat: repeat;
+  overflow: hidden;
+  z-index: -2;
+  left: 0px;
+}
+
+
+/*********************************************************************************/
+/*
+/* About
+/* 
+/*********************************************************************************/
+
+#kaveh {
+  margin-top: 2%;
+  width: 100%;
+  overflow: auto;
+}
+
+#kaveh .left {
+  width: 39%;
+  float: left;
+  padding: 1%;
+}
+
+.left img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#kaveh .right {
+  width: 57%;
+  padding: 1%;
+  float: right;
+}
+
+#dhonam {
+  width: 100%;
+  margin-top: 2%;
+  overflow: auto;
+}
+
+#dhonam .left {
+  padding: 1%;
+  width: 57%;
+  float: left
+}
+
+#dhonam .right {
+  width: 39%;
+  padding: 1%;
+  float: right;
+}
+
+.right img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*********************************************************************************/
+/*
+/* Portfolio
+/* 
+/*********************************************************************************/
+
+#text {
+  width: 100%;
+}
+
+#screenshots {
+}
+
+#screenshots .shot1 {
+  margin-top: 2%;
+  width: 100%;
+  overflow: auto;
+}
+
+.shot1 .left {
+  width: 38%;
+  float: left;
+  padding: 1%;
+}
+
+.shot1 .left img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.shot1 .right {
+  width: 48%;
+  padding: 1%;
+  float: right;
+}
+
+#screenshots .shot2 {
+  margin-top: 2%;
+  width: 100%;
+  overflow: auto;
+}
+
+.shot2 .left {
+  width: 48%;
+  padding: 1%;
+  float: left;
+}
+
+.shot2 .right {
+  width: 38%;
+  padding: 1%;
+  float: right;
+}
+
+.shot2 .right img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*********************************************************************************/
+/*
+/* Mission
+/* 
+/*********************************************************************************/
+
+#mission h1 {
+  text-align: center;
+}
+
+#mission .image {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+#mission .image img{
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mission .statement {
+  width: 100%;
+  margin-top: 2%;
 }
