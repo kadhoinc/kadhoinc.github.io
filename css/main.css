@@ -296,6 +296,10 @@ ul.posts span {
 #band1 {
 }
 
+#band1 h1 {
+  font-size: 16pt;
+}
+
 #band1 .left {
   width: 50%;
   padding: 15px;
@@ -317,11 +321,18 @@ ul.posts span {
 }
 
 #band2 {
-  margin-top: 4%;
+  margin-top: 2%;
   overflow: auto;
   width: 100%;
   color: #fff;
   margin-bottom: 5%;
+}
+
+#band2 h1 {
+  font-size: 16pt;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0em;
 }
 
 #band2 .column1 {
@@ -408,7 +419,7 @@ ul.posts span {
 
 .center-cropped {
     width: 100px;
-    height: 469px;
+    height: 509px;
     /*background-position: center center; */
     background-repeat: repeat;
     overflow: hidden;
@@ -437,12 +448,13 @@ ul.posts span {
   font-size: 16pt;
   text-align: center;
   color: #fff;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #band5 h1 {
   margin-top: 60px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 #band5 .center-cropped {
@@ -496,6 +508,14 @@ ul.posts span {
   width: 57%;
   float: right;
   text-align: right;
+}
+
+#dhonam .left h1 {
+  text-align: right;
+}
+
+#dhonam .left p {
+  text-align: left;
 }
 
 #dhonam .right {
@@ -601,4 +621,47 @@ ul.posts span {
 #mission .statement {
   width: 100%;
   margin-top: 2%;
+}
+
+#band5text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.portfoliobutton {
+	margin-left: 4em;
+	background-color:#fae4bd;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family: "Museo Sans","Lucida Grande",Arial,sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:45px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align: center;
+	text-shadow:1px 1px 0px #cc9f52;
+        margin-top: auto;
+        margin-bottom: auto;
+}.portfoliobutton:hover {
+	background-color:#eac380;
+}.portfoliobutton:active {
+	position:relative;
+	top:1px;
 }
