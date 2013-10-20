@@ -913,6 +913,10 @@ ul.posts span {
 
 #mochu-img {
   width: 100%;
+  height: auto !important;
+  overflow: auto;
+  height: 100%;  
+  max-height: 88%;
 }
 
 #mochu-img img {
@@ -920,4 +924,23 @@ ul.posts span {
   left: 0;
   top: 0;
   max-width: 100%;
+}
+
+#mochu_footer {
+  position: relative;
+  height: 150px;
+  color: #ffffff;
+  text-decoration: none; 
+  left: 0;
+  bottom: 0;
+}
+
+#mochu_footer p {
+  margin-top: 72%;
+  margin-right: 50px;
+  text-align: right;
+  float: right;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
