@@ -279,12 +279,16 @@ ul.posts span {
   margin-right:auto;
 }
 
-.header #nav-links a:hover {
-  color: #000;
+#nav-links a:active {
+  color: #aaa;
 }
 
-.header #nav-links a:visited {
+#nav-links a:visited {
   color: #aaa;
+}
+
+#nav-links a:hover {
+  color: #000;
 }
 
 .headerbutton {
